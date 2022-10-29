@@ -1,0 +1,53 @@
+h1 {
+  font-size: 2rem;
+  font-family: 'Fraunces';
+}
+
+h2,
+p,
+button {
+  font-family: 'Montserrat';
+}
+
+.card {
+  max-width: 344px;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-subtitle {
+  letter-spacing: 4px;
+}
+
+.card-title, h1 {
+  margin: 0.7rem 1rem 1rem 0;
+}
+
+.card-text {
+  line-height: 1.6;
+}
+
+.old-price {
+  margin-top: 35px;
+}
+
+@media (min-width: 992px) {
+  .card {
+    max-width: 600px;
+  }
+
+  .card-body {
+    padding: 2rem;
+  }
+
+  .card-title, h1 {
+    margin: 1.1rem 1rem 1.5rem 0;
+  }
+
+  .old-price {
+    margin-top: 40px;
+    ;
+  }
+}
